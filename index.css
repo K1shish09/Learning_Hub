@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Kanit:wght@300;400&family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;500&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+  font-family: 'Kanit', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Hover effect for nav links */
+.nav-link:hover {
+  color: #ff5722; /* Changes the color on hover */
+  text-decoration: underline; /* Adds an underline on hover */
+}
+
+
+.main-container{
+    height: 550px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.logo-design{
+    height: 210px;
+
+}
+  /* Navbar styles */
+  .navbar {
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styles */
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+
+.navbar-brand span {
+    background: linear-gradient(90deg, #ff7a18, #ff5722);
+    color: white;
+    border-radius: 18px;
+    padding: 0 10px;
+    margin-left: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Link styles */
+.nav-link {
+    font-weight: bold;
+    color: #333 !important;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #e0c3fc;
+    color: #6a11cb !important;
+    border-radius: 5px;
+}
+
+.navbar-toggler {
+    border-color: transparent;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.main-description{
+    margin-left: 70px;
+    margin-top: 505px;
+ 
+}
+
+.main-content{
+    display: flex;
+    gap: 3%;
+
+}
+
+
+.main-img{
+    height: 500px;
+    margin-top: 70px ;
+    background: transparent;
+ 
+}
+
+.navbaar-container{
+    display: flex;
+    max-width: 90%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+
+
+    /* Course card hover effect */
+    .course-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .course-card img {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+    #faq .accordion .card {
+        border-radius: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Lighter shadow for modern look */
+    }
+    
+    #faq .accordion .card-header {
+        background-color: #f9f9f9;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    
+    #faq .accordion .btn-link {
+        font-weight: bold;
+        color: #333;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    
+    #faq .accordion .btn-link:hover {
+        color: #ff5722; /* Accent color for hover */
+    }
+    
+    #faq .card-body {
+        color: rgb(48, 6, 42);
+        padding: 20px;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    
+    #faq .accordion .card-body p {
+        margin-bottom: 0;
+    }
+    
+    #faq h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 50px;
+    }
+    
+    #faq .accordion .btn-link:focus {
+        outline: none; /* Remove focus border */
+    }
+    
+
+    .social-icons a:hover, .contact-icons a:hover {
+        color: #ffd700;
+        transform: translateY(-5px);
+        transition: transform 0.3s, color 0.3s;
+    }
+    .contact-icons a {
+        margin-right: 20px;
+    }
+    
+    .card {
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+    .btn-primary {
+        background-color: #6c4f99;
+        border-radius: 25px;
+        font-weight: 600;
+    }
+    .btn-primary:hover {
+        background-color: #9d77d1;
+    }
+
