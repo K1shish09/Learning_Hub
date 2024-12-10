@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    background: linear-gradient(135deg, #f9d3f5, rgb(80, 1, 68));
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    animation: glow 5s infinite alternate;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    border: 2px solid transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  }
+  
+  .container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+    border: 2px solid #ff6f61;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #ff6f61;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 32px;
+    position: relative;
+  }
+  
+  h2::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: #ff6f61;
+    border-radius: 5px;
+  }
+  
+  /* Form Styles */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ff6f61;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .form-control {
+    border-radius: 15px;
+    border: 1px solid #f3d1e1;
+    font-size: 16px;
+    padding: 14px;
+    transition: all 0.3s ease;
+    background-color: #fdf0f5;
+  }
+  
+  .form-control:focus {
+    border-color: #ff6f61;
+    box-shadow: 0 0 8px rgba(255, 111, 97, 0.3);
+    background-color: #fff;
+  }
+  
+  select.form-control {
+    background: url('https://img.icons8.com/ios-filled/50/000000/chevron-down.png') no-repeat right 10px center;
+    background-size: 18px;
+  }
+  
+  /* Button Styles */
+  .btn-primary {
+    background-color: #ff6f61;
+    border: none;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e84f47;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(232, 79, 71, 0.3);
+  }
+  
+  /* Success Message Styles */
+  .alert-success {
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    background-color: #28a745;
+    box-shadow: 0 5px 15px rgba(40, 167, 69, 0.2);
+  }
+  
+  /* Error & Info Messages */
+  .text-danger {
+    font-size: 13px;
+    margin-top: 5px;
+  }
+  
+  .text-info {
+    font-size: 13px;
+    margin-top: 10px;
+    color: #007bff;
+  }
+  
+  /* Form Footer */
+  .form-footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .form-footer a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .form-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Glow Animation */
+  @keyframes glow {
+    from {
+      background: linear-gradient(135deg, #f9d3f5, #e4b8db);
+    }
+    to {
+      background: linear-gradient(135deg, #f9d3f5, #f4c3eb);
+    }
+  }
+  
